@@ -8934,6 +8934,17 @@
 				)
 			)
 		)
+		(property "MPN" "C780769"
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "e74f42a7-f727-4a0f-be12-5c5fd39ece58")
 		)

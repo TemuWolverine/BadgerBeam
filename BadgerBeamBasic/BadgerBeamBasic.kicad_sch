@@ -5,6 +5,152 @@
 	(uuid "bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Circuits:USB-PD-Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U3"
+				(at 0.635 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Circuits:USB-PD-Breakout"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB-PD-Breakout_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 7.62 -12.065)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Circuits:WaveshareDCDC_Buck"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -76,7 +222,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 6.35 1.27 0)
 					(length 2.54)
 					(name "VIN+"
@@ -94,7 +240,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 6.35 -1.27 0)
 					(length 2.54)
 					(name "VIN+"
@@ -112,7 +258,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 3.81 180)
 					(length 2.54)
 					(name "VOUT+"
@@ -130,7 +276,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 1.27 180)
 					(length 2.54)
 					(name "VOUT+"
@@ -148,7 +294,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 -1.27 180)
 					(length 2.54)
 					(name "VOUT+"
@@ -166,7 +312,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 6.35 -3.81 0)
 					(length 2.54)
 					(name "VIN-"
@@ -184,7 +330,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 6.35 -6.35 0)
 					(length 2.54)
 					(name "VIN-"
@@ -202,7 +348,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 -3.81 180)
 					(length 2.54)
 					(name "VOUT-"
@@ -220,7 +366,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 -6.35 180)
 					(length 2.54)
 					(name "VOUT-"
@@ -238,7 +384,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 29.21 -8.89 180)
 					(length 2.54)
 					(name "VOUT-"
@@ -249,187 +395,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1131,8 +1096,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1142,7 +1107,7 @@
 				)
 			)
 			(property "Value" "Waveshare_ESP32_S3_Zero"
-				(at 0 19.812 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1151,7 +1116,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Module:Waveshare_ESP32_S3_Zero_Unspecified"
+			(property "Footprint" "Paul:Waveshare_ESP32_S3_Zero_SMD"
 				(at -0.254 -35.306 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1254,7 +1219,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 12.7 10.16 180)
 					(length 2.54)
 					(name "3V3"
@@ -2392,7 +2357,7 @@
 		(uuid "a2ebdbe0-de17-4ca5-95e7-57763e03c5b8")
 	)
 	(junction
-		(at 116.84 130.81)
+		(at 105.41 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02e30bb1-99fa-4b7c-beff-33b0a9ebd257")
@@ -2404,19 +2369,13 @@
 		(uuid "20c10efd-b213-4455-96a6-66330be11f02")
 	)
 	(junction
-		(at 83.82 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fdbd4a2-d323-41f5-bcef-a1a4f6ace84c")
-	)
-	(junction
 		(at 223.52 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30143dec-725c-4b80-b202-beb0afd7000e")
 	)
 	(junction
-		(at 116.84 128.27)
+		(at 105.41 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c83164-829c-4656-bf9a-5caa18a81695")
@@ -2428,16 +2387,10 @@
 		(uuid "393605c1-35f1-473a-9ecc-53a91fec5405")
 	)
 	(junction
-		(at 116.84 123.19)
+		(at 111.76 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4911b3ca-b7b9-4185-a76d-723ceb2f47c9")
-	)
-	(junction
-		(at 86.36 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c7ac7e7-2c45-4c65-abb9-78f07eb1d5ac")
+		(uuid "3c8371a1-6a62-4dce-82eb-19b8a10e1a6e")
 	)
 	(junction
 		(at 222.25 60.96)
@@ -2458,7 +2411,13 @@
 		(uuid "7b9570b0-7f02-4cf3-9785-6c1cb62da338")
 	)
 	(junction
-		(at 83.82 123.19)
+		(at 62.23 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d836985-7b2a-48f6-b082-5baa63571eba")
+	)
+	(junction
+		(at 72.39 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96191331-bd52-4cfd-b67b-5fd0acd4662d")
@@ -2468,12 +2427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "975b243e-4d00-490b-9bd9-7be3dec2eae7")
-	)
-	(junction
-		(at 116.84 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7129c64-b3e0-4f63-9952-355440af90cc")
 	)
 	(junction
 		(at 212.09 81.28)
@@ -2494,16 +2447,28 @@
 		(uuid "b307f89e-3231-49ab-ba69-7f78391df7f1")
 	)
 	(junction
-		(at 86.36 130.81)
+		(at 74.93 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c21e1efa-dd96-434a-b5d7-12559d1cce72")
 	)
 	(junction
-		(at 83.82 118.11)
+		(at 111.76 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2fff0e2-1c74-424a-ab98-631b90f5c5c2")
+	)
+	(junction
+		(at 72.39 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e75afe10-00b3-48fe-bd17-2a2589edd1f0")
+	)
+	(junction
+		(at 62.23 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6554fe-d7f0-47b7-b5f3-64b71dc42d87")
 	)
 	(junction
 		(at 223.52 72.39)
@@ -2512,36 +2477,48 @@
 		(uuid "fe2b53fe-6d95-4858-b8ca-4afadf9ddb22")
 	)
 	(no_connect
-		(at 116.84 77.47)
+		(at 179.07 71.12)
 		(uuid "0f620690-5c1a-4f9c-8add-e4a536708002")
 	)
 	(no_connect
-		(at 116.84 82.55)
+		(at 179.07 76.2)
 		(uuid "3045c974-4d53-4a62-84c1-644280a124cc")
 	)
 	(no_connect
-		(at 91.44 82.55)
+		(at 153.67 76.2)
 		(uuid "72953719-e371-4063-847d-0b0dcf482cba")
 	)
 	(no_connect
-		(at 91.44 59.69)
+		(at 153.67 71.12)
+		(uuid "77eb1d2c-2264-4e82-b54c-ae576089c738")
+	)
+	(no_connect
+		(at 153.67 68.58)
+		(uuid "78cc9cf9-bec4-4874-8291-5cbb221f7b5d")
+	)
+	(no_connect
+		(at 153.67 53.34)
 		(uuid "7af5f2a6-073a-4f30-9c50-8d86b8bd4fab")
 	)
 	(no_connect
-		(at 91.44 80.01)
+		(at 153.67 66.04)
+		(uuid "9a303d56-b9f7-4c0a-b501-2a30b4636762")
+	)
+	(no_connect
+		(at 153.67 73.66)
 		(uuid "bdcdc349-170d-4d4f-8f74-458933adf7a7")
 	)
 	(no_connect
-		(at 91.44 57.15)
+		(at 153.67 50.8)
 		(uuid "e691e4ab-533f-4944-a4f8-1a4126db81aa")
 	)
 	(no_connect
-		(at 116.84 64.77)
+		(at 179.07 58.42)
 		(uuid "ee52cb30-6d15-4c2a-bfc1-bef7d2758883")
 	)
 	(wire
 		(pts
-			(xy 73.66 82.55) (xy 78.74 82.55)
+			(xy 135.89 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 115.57) (xy 83.82 118.11)
+			(xy 72.39 49.53) (xy 72.39 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 83.82 125.73)
+			(xy 72.39 57.15) (xy 72.39 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2611,6 +2588,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdc5468-fc4d-44ec-8305-451511ebeeb7")
+	)
+	(wire
+		(pts
 			(xy 223.52 92.71) (xy 223.52 95.25)
 		)
 		(stroke
@@ -2621,13 +2608,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 78.74 90.17)
+			(xy 135.89 83.82) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39e1f512-836e-4056-914a-5fe073b1e5c0")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a93fafa-1de0-4e72-a005-7f656ce5e2e0")
 	)
 	(wire
 		(pts
@@ -2681,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 128.27) (xy 93.98 128.27)
+			(xy 74.93 62.23) (xy 82.55 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 91.44 67.31)
+			(xy 148.59 60.96) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2721,13 +2718,43 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.65) (xy 116.84 123.19)
+			(xy 105.41 57.15) (xy 111.76 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5958f71c-38a1-473f-8632-fb96d1b3af84")
+		(uuid "546cc055-2eec-4e7d-80f7-5eb69757e9b0")
+	)
+	(wire
+		(pts
+			(xy 105.41 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6c3f3f-49dd-493f-a11f-da224685d656")
+	)
+	(wire
+		(pts
+			(xy 62.23 64.77) (xy 74.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b810a27-73d5-4964-a902-8c27c30e3f50")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be256db-3113-4ab8-82eb-950974ea6e43")
 	)
 	(wire
 		(pts
@@ -2738,16 +2765,6 @@
 			(type default)
 		)
 		(uuid "5ee6e39b-729b-478e-8666-028b6fbaebcf")
-	)
-	(wire
-		(pts
-			(xy 116.84 123.19) (xy 116.84 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63349bca-fa62-4327-91ed-1f8f6927831a")
 	)
 	(wire
 		(pts
@@ -2781,16 +2798,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.65) (xy 127 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72414fdc-c0e6-46ba-bbee-380a8cdde39b")
-	)
-	(wire
-		(pts
 			(xy 222.25 31.75) (xy 222.25 30.48)
 		)
 		(stroke
@@ -2801,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 93.98 130.81)
+			(xy 74.93 64.77) (xy 82.55 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2811,17 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 128.27) (xy 86.36 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8040b639-8995-475b-82b8-a05f98ec96c8")
-	)
-	(wire
-		(pts
-			(xy 116.84 62.23) (xy 120.65 62.23)
+			(xy 179.07 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2831,13 +2828,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 97.79) (xy 104.14 92.71)
+			(xy 166.37 91.44) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8470539b-7bf1-42a3-ab15-2d43abcb0a49")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848244fe-894d-4d24-8ffd-0244a55ea14a")
 	)
 	(wire
 		(pts
@@ -2891,17 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 130.81) (xy 86.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99596edb-74e6-4d55-95b8-5e9a1b150640")
-	)
-	(wire
-		(pts
-			(xy 83.82 62.23) (xy 91.44 62.23)
+			(xy 146.05 55.88) (xy 153.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2921,17 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 125.73) (xy 83.82 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc19f49-0288-4908-9941-1a15fd55ecd8")
-	)
-	(wire
-		(pts
-			(xy 86.36 128.27) (xy 86.36 130.81)
+			(xy 74.93 62.23) (xy 74.93 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2951,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 118.11) (xy 83.82 123.19)
+			(xy 72.39 52.07) (xy 72.39 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2961,13 +2948,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 116.84 133.35)
+			(xy 62.23 64.77) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeda0d8c-d5df-4fe4-8dce-c7fa013504f7")
+		(uuid "b1e0c00c-9485-4924-8156-69bb5374d736")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 62.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad40856-bfac-49f1-8705-def5f5556f52")
 	)
 	(wire
 		(pts
@@ -2981,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 93.98 123.19)
+			(xy 72.39 57.15) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 87.63) (xy 91.44 87.63)
+			(xy 135.89 81.28) (xy 153.67 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3031,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 118.11) (xy 83.82 118.11)
+			(xy 73.66 52.07) (xy 72.39 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3091,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 125.73) (xy 93.98 125.73)
+			(xy 72.39 59.69) (xy 82.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3101,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 86.36 138.43)
+			(xy 74.93 64.77) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 91.44 85.09)
+			(xy 135.89 78.74) (xy 153.67 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 69.85) (xy 91.44 69.85)
+			(xy 148.59 63.5) (xy 153.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3151,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 91.44 64.77)
+			(xy 146.05 58.42) (xy 153.67 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 116.84 130.81)
+			(xy 105.41 62.23) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3171,17 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.19) (xy 83.82 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9edaf0d-7100-4d2b-ae86-5571b5c321cb")
-	)
-	(wire
-		(pts
-			(xy 116.84 128.27) (xy 132.08 128.27)
+			(xy 105.41 67.31) (xy 111.76 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3201,7 +3188,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 132.08 137.16)
+			(xy 111.76 57.15) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4a9814-e925-4006-aa3f-2f647470a713")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3232,7 @@
 	)
 	(global_label "CW_2"
 		(shape input)
-		(at 86.36 69.85 180)
+		(at 148.59 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3245,7 +3242,7 @@
 		)
 		(uuid "2427a791-e503-4f05-bbed-f12e05a7e9cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4763 69.85 0)
+			(at 140.7063 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3259,7 +3256,7 @@
 	)
 	(global_label "WW_1"
 		(shape input)
-		(at 83.82 62.23 180)
+		(at 146.05 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3269,7 +3266,7 @@
 		)
 		(uuid "2799053e-88cc-4e42-8719-c2c677996b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.7549 62.23 0)
+			(at 137.9849 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +3304,7 @@
 	)
 	(global_label "WW_2"
 		(shape input)
-		(at 86.36 67.31 180)
+		(at 148.59 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3317,7 +3314,7 @@
 		)
 		(uuid "df79e300-9193-4a7e-bf10-8740cdb4d684")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.2949 67.31 0)
+			(at 140.5249 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3376,7 @@
 	)
 	(global_label "CW_1"
 		(shape input)
-		(at 83.82 64.77 180)
+		(at 146.05 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3389,7 +3386,7 @@
 		)
 		(uuid "f188233e-0407-4043-bbc4-1f355774ac35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9363 64.77 0)
+			(at 138.1663 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +3400,7 @@
 	)
 	(symbol
 		(lib_id "Paul:Waveshare_ESP32_S3_Zero")
-		(at 104.14 72.39 0)
+		(at 166.37 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3414,7 +3411,7 @@
 		(fields_autoplaced yes)
 		(uuid "011c4dd5-1c25-41cb-9b6f-5405ba6d67c2")
 		(property "Reference" "U1"
-			(at 104.14 49.53 0)
+			(at 166.37 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3424,7 +3421,7 @@
 			)
 		)
 		(property "Value" "Waveshare_ESP32_S3_Zero"
-			(at 104.14 52.07 0)
+			(at 166.37 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3434,7 +3431,7 @@
 			)
 		)
 		(property "Footprint" "Paul:Waveshare_ESP32_S3_Zero_SMD"
-			(at 103.886 107.696 0)
+			(at 166.116 101.346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waveshare.com/wiki/ESP32-S3-Zero"
-			(at 104.14 110.49 0)
+			(at 166.37 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3453,7 @@
 			)
 		)
 		(property "Description" "Microcontroller module with ESP32-S3 MCU"
-			(at 104.14 113.284 0)
+			(at 166.37 106.934 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3518,7 @@
 			(uuid "0be72c9d-24e8-4aeb-8434-6e533c5f75df")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "U1")
 					(unit 1)
@@ -3614,7 +3611,7 @@
 			(uuid "4d3995ea-d6aa-4411-aac1-1d54b2edbf26")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "R3")
 					(unit 1)
@@ -3624,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 138.43 0)
+		(at 74.93 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3635,7 +3632,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cfe05ec-882e-4d7a-a7a0-6aafed6affa1")
 		(property "Reference" "#PWR015"
-			(at 86.36 144.78 0)
+			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 143.51 0)
+			(at 74.93 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,7 +3653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 138.43 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 138.43 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 138.43 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3689,7 @@
 			(uuid "79f296c7-992f-44cf-b3ce-097384e05706")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR015")
 					(unit 1)
@@ -3702,7 +3699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 97.79 0)
+		(at 166.37 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3713,7 +3710,7 @@
 		(fields_autoplaced yes)
 		(uuid "135adbdf-bb7e-4862-bea9-8b4f22386a60")
 		(property "Reference" "#PWR013"
-			(at 104.14 104.14 0)
+			(at 166.37 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,7 +3721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 102.87 0)
+			(at 166.37 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +3731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 97.79 0)
+			(at 166.37 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +3742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 97.79 0)
+			(at 166.37 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +3753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 97.79 0)
+			(at 166.37 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3767,7 @@
 			(uuid "d071293c-b2b8-4a13-89f4-232ffcd785ed")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR013")
 					(unit 1)
@@ -3863,7 +3860,7 @@
 			(uuid "aff41de6-a415-4942-b69c-38aee5806d8b")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "R6")
 					(unit 1)
@@ -3950,7 +3947,7 @@
 			(uuid "1ecafb52-9b5a-4fa1-bc75-e13bff0b4811")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "Q3")
 					(unit 1)
@@ -4028,7 +4025,7 @@
 			(uuid "41fa13a6-19a3-42fb-873c-4b5c19fb74f5")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR01")
 					(unit 1)
@@ -4038,7 +4035,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 83.82 115.57 0)
+		(at 72.39 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4049,7 +4046,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a514a0-93e0-41be-9e58-ce8f0a31ba47")
 		(property "Reference" "#FLG01"
-			(at 83.82 113.665 0)
+			(at 72.39 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4060,7 +4057,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 83.82 110.49 0)
+			(at 72.39 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4070,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 115.57 0)
+			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 115.57 0)
+			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,7 +4089,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 115.57 0)
+			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4103,7 @@
 			(uuid "f5bf15a1-ab0e-4dfb-8c22-564b9af11519")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#FLG01")
 					(unit 1)
@@ -4116,7 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Circuits:WaveshareDCDC_Buck")
-		(at 87.63 124.46 0)
+		(at 76.2 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4127,7 +4124,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ec9880b-b422-48b3-b7d1-e263d577d7ed")
 		(property "Reference" "U2"
-			(at 105.41 114.3 0)
+			(at 93.98 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4137,7 +4134,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 87.63 124.46 0)
+			(at 76.2 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4147,7 +4144,7 @@
 			)
 		)
 		(property "Footprint" "Circuits:WaveshareDCDCBuck"
-			(at 105.156 115.062 0)
+			(at 93.726 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4158,7 +4155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 124.46 0)
+			(at 76.2 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 124.46 0)
+			(at 76.2 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4207,7 @@
 			(uuid "82cee24a-0f2f-477b-bdbf-4b7bffa288dd")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "U2")
 					(unit 1)
@@ -4289,7 +4286,7 @@
 			(uuid "bf4c0ef5-e197-4864-bb13-8dc5fb375678")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR03")
 					(unit 1)
@@ -4299,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 82.55 270)
+		(at 140.97 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4310,7 +4307,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f05b1dd-c294-4ed0-8e6e-a70780408545")
 		(property "Reference" "#PWR016"
-			(at 74.93 82.55 0)
+			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4318,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.55 82.5499 90)
+			(at 144.78 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4332,7 +4329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 82.55 0)
+			(at 140.97 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 82.55 0)
+			(at 140.97 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 82.55 0)
+			(at 140.97 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,7 +4365,7 @@
 			(uuid "ffb2ce1d-f9e4-4da7-bfa5-3d7dfd5bc291")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR016")
 					(unit 1)
@@ -4378,7 +4375,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 120.65 62.23 270)
+		(at 182.88 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4388,7 +4385,7 @@
 		(dnp no)
 		(uuid "4755903b-688a-410b-91d2-7c3141b10493")
 		(property "Reference" "#PWR018"
-			(at 116.84 62.23 0)
+			(at 179.07 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4396,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.3551 62.2301 90)
+			(at 186.5851 55.8801 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4410,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 62.23 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 62.23 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 62.23 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,7 +4443,7 @@
 			(uuid "b89ebaa5-01a7-4bb4-b6bf-ef5285f8e4f0")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR018")
 					(unit 1)
@@ -4531,7 +4528,7 @@
 			(uuid "e4de1b3b-2178-4838-bd42-e5b9234cc7dd")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "J2")
 					(unit 1)
@@ -4618,7 +4615,7 @@
 			(uuid "ccc11ea5-8dfa-42d4-8ddf-c5dec3c1786f")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "Q2")
 					(unit 1)
@@ -4705,7 +4702,7 @@
 			(uuid "ed8be0ee-23d7-4758-a0b2-5d0e22b865ea")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "Q1")
 					(unit 1)
@@ -4715,7 +4712,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 68.58 85.09 0)
+		(at 130.81 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4725,8 +4722,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8845cc63-5e63-4081-b13d-c084d5882b3c")
-		(property "Reference" "J6"
-			(at 69.215 77.47 0)
+		(property "Reference" "FrontPanel1"
+			(at 131.445 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4736,7 +4733,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 69.215 80.01 0)
+			(at 131.445 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4746,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 68.58 85.09 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 85.09 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,7 +4765,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 68.58 85.09 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,9 +4788,9 @@
 			(uuid "647d667a-0f4d-4dbb-9885-2aea6c668079")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
-					(reference "J6")
+					(reference "FrontPanel1")
 					(unit 1)
 				)
 			)
@@ -4801,7 +4798,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 120.65 270)
+		(at 115.57 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4810,9 +4807,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ff60db6-5015-4628-88a7-d55e9c37b76f")
-		(property "Reference" "#PWR017"
-			(at 123.19 120.65 0)
+		(uuid "8e919a9b-44d5-40e8-b175-e3be775d5e9e")
+		(property "Reference" "#PWR019"
+			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4820,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 120.6499 90)
+			(at 119.38 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4834,7 +4831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 120.65 0)
+			(at 115.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4845,7 +4842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 120.65 0)
+			(at 115.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4856,7 +4853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 120.65 0)
+			(at 115.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,12 +4864,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "903f589e-0bd7-4dca-9660-80a25a1917fd")
+			(uuid "c015c3be-d051-4a8e-9503-860ac1b96db8")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4880,7 +4877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 90.17 0)
+		(at 140.97 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4891,7 +4888,7 @@
 		(fields_autoplaced yes)
 		(uuid "93540066-4106-487f-87f4-f82c4aa4f608")
 		(property "Reference" "#PWR05"
-			(at 78.74 96.52 0)
+			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,7 +4899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 95.25 0)
+			(at 140.97 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4912,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 90.17 0)
+			(at 140.97 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4923,7 +4920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 90.17 0)
+			(at 140.97 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 90.17 0)
+			(at 140.97 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +4945,7 @@
 			(uuid "483f9116-7f7c-4a69-9c52-b626665a38d7")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR05")
 					(unit 1)
@@ -5035,7 +5032,7 @@
 			(uuid "006c449f-89b5-4feb-a109-dee4d101fe68")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "Q4")
 					(unit 1)
@@ -5045,7 +5042,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 137.16 0)
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5056,7 +5053,7 @@
 		(fields_autoplaced yes)
 		(uuid "af001cea-69d2-4b7f-b571-c9b9e89d35da")
 		(property "Reference" "#PWR014"
-			(at 132.08 143.51 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +5064,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 142.24 0)
+			(at 111.76 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5077,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 137.16 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,7 +5085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 137.16 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 137.16 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5110,7 @@
 			(uuid "bcc0d02b-d02c-4484-a039-b37fb6a772be")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR014")
 					(unit 1)
@@ -5198,7 +5195,7 @@
 			(uuid "820d3d77-0b18-4d13-9463-ff4a4f6e7dd8")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "J1")
 					(unit 1)
@@ -5291,7 +5288,7 @@
 			(uuid "6f246da7-1702-4523-b084-e5be4ff5aa4f")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "R5")
 					(unit 1)
@@ -5384,7 +5381,7 @@
 			(uuid "8682bd41-91e6-449e-bfc9-acf317db30a4")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "R4")
 					(unit 1)
@@ -5394,7 +5391,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 85.09 118.11 270)
+		(at 73.66 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5405,7 +5402,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b88c7a-7372-44d0-bb70-c6cc52a0e616")
 		(property "Reference" "#PWR02"
-			(at 81.28 118.11 0)
+			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,7 +5413,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 88.9 118.1099 90)
+			(at 77.47 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5427,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 118.11 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 118.11 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 85.09 118.11 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5460,7 @@
 			(uuid "6b541d89-7a17-4b28-b750-b6ef45916983")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR02")
 					(unit 1)
@@ -5542,7 +5539,7 @@
 			(uuid "2b67c938-bd69-4b8c-97df-d332499d3f1c")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
 					(reference "#PWR04")
 					(unit 1)
@@ -5551,8 +5548,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 68.58 123.19 0)
+		(lib_id "Circuits:USB-PD-Breakout")
+		(at 52.07 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5561,9 +5558,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d09336ae-90f8-4696-8262-7d9201dcf531")
-		(property "Reference" "J4"
-			(at 69.215 118.11 0)
+		(uuid "e1bbbfd5-22ca-48a7-a2a2-ad62edf1e4a9")
+		(property "Reference" "U3"
+			(at 52.705 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5572,8 +5569,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 69.215 120.65 0)
+		(property "Value" ""
+			(at 52.07 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5582,8 +5579,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 68.58 123.19 0)
+		(property "Footprint" "Circuits:USB-PD-Breakout"
+			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5594,7 +5591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 123.19 0)
+			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,87 +5601,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 68.58 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8a2f0e8-ed00-4a4c-9051-2f99f7f0eb75")
-		)
-		(pin "2"
-			(uuid "5b7543ea-65a5-41ed-87ee-4fee039dd86d")
-		)
-		(instances
-			(project "TaskLightBackup"
-				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 68.58 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df558798-4dfd-4d8b-9ce1-5bf4be6eb5e6")
-		(property "Reference" "J3"
-			(at 68.326 132.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 68.58 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 68.58 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 68.58 128.27 0)
+		(property "Description" ""
+			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,15 +5613,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c4b84f-6984-4cff-a645-962e8b86ec11")
+			(uuid "88fd87b4-234f-4abb-a1cf-cc481c552acd")
 		)
 		(pin "2"
-			(uuid "c1687824-863b-4344-9ad3-76827a392001")
+			(uuid "4d063501-8bed-4381-9a96-d925632f7f23")
+		)
+		(pin "1"
+			(uuid "0aaadca5-dbbb-44c8-a46c-802116a6d980")
+		)
+		(pin "2"
+			(uuid "d9574db8-3a56-4ba4-a7e3-1d8d5adc1e6f")
 		)
 		(instances
-			(project "TaskLightBackup"
+			(project "BadgerBeamBasic"
 				(path "/bbf76a9d-6e05-4dbe-9d1e-d9a9b8fb5983"
-					(reference "J3")
+					(reference "U3")
 					(unit 1)
 				)
 			)
