@@ -5602,7 +5602,7 @@
 			(uuid "362d262f-3360-4340-b51b-701ca8f594d5")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C24")
 					(unit 1)
@@ -5694,7 +5694,7 @@
 			(uuid "270e793c-3f8d-4243-ace6-9b794f3e5b5a")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R17")
 					(unit 1)
@@ -5775,7 +5775,7 @@
 			(uuid "c7a8fb1e-5cef-4b98-8e3d-2965473e6b18")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C25")
 					(unit 1)
@@ -5853,7 +5853,7 @@
 			(uuid "e2f5f657-59b1-4a74-9299-c114857a3015")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR037")
 					(unit 1)
@@ -6006,7 +6006,7 @@
 			(uuid "010dcb58-c209-434b-95d1-967054091e67")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "U1")
 					(unit 1)
@@ -6084,7 +6084,7 @@
 			(uuid "58aa8b7a-0eca-4968-a03a-3da0dff21806")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR033")
 					(unit 1)
@@ -6162,7 +6162,7 @@
 			(uuid "00ffe418-fb89-4955-99b8-e142d8ec630c")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR018")
 					(unit 1)
@@ -6254,7 +6254,7 @@
 			(uuid "45a6c9a1-6621-45a4-88b2-66a0a9154cd4")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R11")
 					(unit 1)
@@ -6332,7 +6332,7 @@
 			(uuid "bb92a0ad-e39c-44ce-a6d2-086e4b18d6ef")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR036")
 					(unit 1)
@@ -6411,7 +6411,7 @@
 			(uuid "c141cb3b-97ef-4312-8fd7-a2ce63657084")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR016")
 					(unit 1)
@@ -6489,7 +6489,7 @@
 			(uuid "7e3a9846-a212-42c4-b581-45abfde7f59c")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR034")
 					(unit 1)
@@ -6567,7 +6567,7 @@
 			(uuid "d94159c9-754b-4098-bb61-4f6419c2c77e")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR042")
 					(unit 1)
@@ -6645,7 +6645,7 @@
 			(uuid "687c4534-6582-4f0e-b87d-3999498ac4c0")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR025")
 					(unit 1)
@@ -6722,7 +6722,7 @@
 			(uuid "ee024967-0793-4c0d-8a1f-f7b1cb302fc4")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#FLG02")
 					(unit 1)
@@ -6814,7 +6814,7 @@
 			(uuid "54583662-4f75-49c2-a7ee-ab93ddc9087a")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R12")
 					(unit 1)
@@ -6895,7 +6895,7 @@
 			(uuid "598417fa-bafe-48a2-8089-67e6556c9575")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C13")
 					(unit 1)
@@ -6972,7 +6972,7 @@
 			(uuid "f22d338b-6035-4c1c-9c58-c38b3ce6c983")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR041")
 					(unit 1)
@@ -7064,7 +7064,7 @@
 			(uuid "d796d45b-645c-4dd3-8fe8-330bde0dc256")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R15")
 					(unit 1)
@@ -7142,7 +7142,7 @@
 			(uuid "07e98dc5-c6bc-4661-8edc-b30539f71177")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR035")
 					(unit 1)
@@ -7220,7 +7220,7 @@
 			(uuid "02ca80f5-bc45-4c22-ab9c-9c741d3d6323")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR032")
 					(unit 1)
@@ -7298,7 +7298,7 @@
 			(uuid "94d42e87-d163-4877-abfd-10ce935902aa")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "TP2")
 					(unit 1)
@@ -7379,7 +7379,7 @@
 			(uuid "9e59ad52-971f-4d17-aa1d-eba8bfe7c01f")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C14")
 					(unit 1)
@@ -7457,7 +7457,7 @@
 			(uuid "7b5716d6-1594-48b0-b619-d69ab2678c1b")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR024")
 					(unit 1)
@@ -7535,7 +7535,7 @@
 			(uuid "eb43f7cf-5067-4222-8400-b0b25650b978")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR030")
 					(unit 1)
@@ -7616,7 +7616,7 @@
 			(uuid "959819d2-8440-4570-b9fc-5b71b941d873")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C20")
 					(unit 1)
@@ -7697,7 +7697,7 @@
 			(uuid "7697392e-e1ac-45c1-a2f3-5bf854a23503")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C12")
 					(unit 1)
@@ -7775,7 +7775,7 @@
 			(uuid "9cfe8f78-d84a-4787-b825-38f4b1161ff0")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR038")
 					(unit 1)
@@ -7867,7 +7867,7 @@
 			(uuid "27afb9c7-e6f7-4913-8041-edfd05809887")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R16")
 					(unit 1)
@@ -7944,7 +7944,7 @@
 			(uuid "501676f8-4580-48f0-863b-874b6dc3c57b")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "TP3")
 					(unit 1)
@@ -8036,7 +8036,7 @@
 			(uuid "acb7a74d-ca87-41d0-a18e-5ccff9ac45b4")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R14")
 					(unit 1)
@@ -8163,7 +8163,7 @@
 			(uuid "40e1b98c-7087-4231-b8fc-3abd5fa97ee1")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "U4")
 					(unit 1)
@@ -8255,7 +8255,7 @@
 			(uuid "c8fe8f85-52af-42f2-a181-a81002ad70d8")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "R13")
 					(unit 1)
@@ -8390,7 +8390,7 @@
 			(uuid "e58e431a-3b12-4765-9c69-ba0dc048eef8")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "LED2")
 					(unit 1)
@@ -8469,7 +8469,7 @@
 			(uuid "d5987903-1670-40ee-8a2d-b7da06ab75f9")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR017")
 					(unit 1)
@@ -8547,7 +8547,7 @@
 			(uuid "3f5625c1-6e66-4c43-b0de-d26c7619b7b2")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#FLG05")
 					(unit 1)
@@ -8625,7 +8625,7 @@
 			(uuid "9bcbde96-a165-41ac-b85b-fe01bfc6778f")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR028")
 					(unit 1)
@@ -8703,7 +8703,7 @@
 			(uuid "8d6ef818-ca5e-44b1-89bd-23a76631bc4e")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR029")
 					(unit 1)
@@ -8783,7 +8783,7 @@
 			(uuid "0cfd633c-f166-4fdf-8dbc-89f21f1191af")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "J3")
 					(unit 1)
@@ -8861,7 +8861,7 @@
 			(uuid "e369022a-579e-4371-ad99-e4822844503a")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR040")
 					(unit 1)
@@ -8953,7 +8953,7 @@
 			(uuid "683e5265-ca4d-425d-8d92-b2bcf37adb1b")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "U6")
 					(unit 1)
@@ -9034,7 +9034,7 @@
 			(uuid "b25f5d63-32a4-40d7-b1b9-c6d5ba81bfe2")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C26")
 					(unit 1)
@@ -9113,7 +9113,7 @@
 			(uuid "0d2da942-0d2e-4464-a51c-b1e8c76e1718")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "TP1")
 					(unit 1)
@@ -9193,7 +9193,7 @@
 			(uuid "5dcb8982-5faa-4f51-b7d5-b0b2e9feb9be")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "J4")
 					(unit 1)
@@ -9273,7 +9273,7 @@
 			(uuid "d6e9572f-4cef-44db-8126-872632e74142")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "L1")
 					(unit 1)
@@ -9351,7 +9351,7 @@
 			(uuid "afb52db9-2e6c-412a-828b-3f1454545074")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR023")
 					(unit 1)
@@ -9429,7 +9429,7 @@
 			(uuid "91609817-9b58-4da1-88ec-0014c047ec17")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#FLG03")
 					(unit 1)
@@ -9510,7 +9510,7 @@
 			(uuid "233af135-2add-45ff-8ae3-dd83478d9ef5")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C21")
 					(unit 1)
@@ -9700,7 +9700,7 @@
 			(uuid "23244338-f63f-4d14-bbe8-1818c1bfdabe")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "USB2")
 					(unit 1)
@@ -9778,7 +9778,7 @@
 			(uuid "441549e0-3694-4d9f-8101-aa6c70fed212")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR043")
 					(unit 1)
@@ -9914,7 +9914,7 @@
 			(uuid "b16a07e7-66d7-402f-b663-34a9ebfbf1d3")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "LED1")
 					(unit 1)
@@ -9992,7 +9992,7 @@
 			(uuid "db05f325-3c80-40ab-a709-90bca75d189e")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR031")
 					(unit 1)
@@ -10073,7 +10073,7 @@
 			(uuid "dbd99b12-2e53-4b33-bb1d-7368b055bd43")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "C27")
 					(unit 1)
@@ -10151,7 +10151,7 @@
 			(uuid "675a72bc-43f6-4d94-bdd8-2d02dc570586")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/ad623eb3-5ab8-4f31-9c43-b0ff1896f7ce"
 					(reference "#PWR039")
 					(unit 1)

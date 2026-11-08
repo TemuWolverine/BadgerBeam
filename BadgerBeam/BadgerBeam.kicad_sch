@@ -1324,210 +1324,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Resistor:Trimpot_10k_RA_PTH"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10k Linear"
-				(at 10.16 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Resistor:Bourns-PDB18"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" ""
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun resistor variable linear right angle"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Trimpot_10k_RA_PTH_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.143) (xy 0.508 -2.286) (xy -0.508 -2.286) (xy 0 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Trimpot_10k_RA_PTH_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.381 -1.016) (xy -0.762 0) (xy -1.143 1.016) (xy -1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.143 -1.016) (xy 0.762 0) (xy 0.381 1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2349,12 +2145,6 @@
 		(uuid "3b79953a-c2c4-409a-afdc-3d10a53e7c2e")
 	)
 	(junction
-		(at 144.78 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f92c586-bd3f-41bc-b116-704f00514554")
-	)
-	(junction
 		(at 186.69 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2377,24 +2167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ab7d80-d00a-49e5-a0e8-0eeb66f7853b")
-	)
-	(junction
-		(at 82.55 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7912310e-1d26-4931-80d3-d74372a3f7d6")
-	)
-	(junction
-		(at 133.35 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d577bb8-0356-4631-8f3f-cb6b7706cabf")
-	)
-	(junction
-		(at 138.43 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a93eb11-3561-4b5c-8926-636657f2d276")
 	)
 	(junction
 		(at 175.26 66.04)
@@ -2474,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 137.16 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062ea837-5a23-47a0-9043-cce68f9bcef3")
-	)
-	(wire
-		(pts
 			(xy 185.42 44.45) (xy 191.77 44.45)
 		)
 		(stroke
@@ -2521,16 +2283,6 @@
 			(type default)
 		)
 		(uuid "155c3d95-9851-41df-ad17-61a0273b144e")
-	)
-	(wire
-		(pts
-			(xy 151.13 45.72) (xy 151.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167fdf00-4267-4165-a41b-6d9fa584c43c")
 	)
 	(wire
 		(pts
@@ -2694,16 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 49.53) (xy 144.78 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8a4c86-ba3d-49f5-b23d-961c929232fe")
-	)
-	(wire
-		(pts
 			(xy 114.3 63.5) (xy 121.92 63.5)
 		)
 		(stroke
@@ -2714,43 +2456,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 137.16 58.42)
+			(xy 143.51 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffcfe00-8e24-4dbc-9d5a-a0c5b88e2f35")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "417028a7-df79-4b7d-8b66-7d780a0faf94")
-	)
-	(wire
-		(pts
-			(xy 82.55 53.34) (xy 82.55 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46f2a6cd-4245-4803-a086-9ba4f9ba9a1e")
-	)
-	(wire
-		(pts
-			(xy 127 45.72) (xy 127 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b55ecd-919f-4be2-ae5f-4c95899da9b3")
-	)
-	(wire
-		(pts
-			(xy 137.16 58.42) (xy 137.16 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49ee15e2-e87e-4bae-85a4-4bc66927a5b3")
 	)
 	(wire
 		(pts
@@ -2761,16 +2483,6 @@
 			(type default)
 		)
 		(uuid "4e41ac48-8f8b-4c23-b4c9-0c55a5e7666f")
-	)
-	(wire
-		(pts
-			(xy 151.13 45.72) (xy 147.32 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5169a9bc-9d73-4b79-8087-4e72bf0921f8")
 	)
 	(wire
 		(pts
@@ -2844,23 +2556,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 124.46 95.25)
+			(xy 142.24 58.42) (xy 114.3 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69d7ff48-459f-43e1-b880-57d1c48f6b9a")
-	)
-	(wire
-		(pts
-			(xy 133.35 49.53) (xy 133.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd3332f-fdec-4965-8609-d6ff07574619")
+		(uuid "70d37995-4ccd-4cbd-875f-596981fc2b44")
 	)
 	(wire
 		(pts
@@ -3004,16 +2706,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 133.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9845cf0a-0ebb-4595-bb20-d3bc6c2ee4a2")
-	)
-	(wire
-		(pts
 			(xy 35.56 60.96) (xy 35.56 66.04)
 		)
 		(stroke
@@ -3051,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "a241ad36-6982-422c-8b06-80d8115fc1f6")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6563820-45f8-49ab-8f0b-77bc4fce75cb")
 	)
 	(wire
 		(pts
@@ -3114,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 151.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af418eeb-babc-45e2-a7ee-40f20a7b384b")
-	)
-	(wire
-		(pts
 			(xy 175.26 73.66) (xy 175.26 107.95)
 		)
 		(stroke
@@ -3131,16 +2823,6 @@
 			(type default)
 		)
 		(uuid "b0141c3b-a757-4727-9f01-3795f74c3cde")
-	)
-	(wire
-		(pts
-			(xy 139.7 45.72) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b195a570-52f1-404a-9841-3f6ee06a8c71")
 	)
 	(wire
 		(pts
@@ -3154,13 +2836,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 127 45.72)
+			(xy 143.51 92.71) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c260b023-273a-4cb2-ba4f-e4e56e11820f")
+		(uuid "ba5edd2a-6ec1-4644-ae44-d2fa2de3e131")
 	)
 	(wire
 		(pts
@@ -3174,16 +2856,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 45.72) (xy 139.7 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d011cf18-56ba-4bbb-9607-4c6ae84933d1")
-	)
-	(wire
-		(pts
 			(xy 82.55 71.12) (xy 82.55 77.47)
 		)
 		(stroke
@@ -3194,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 127 97.79)
+			(xy 127 95.25) (xy 132.08 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 127 90.17)
+			(xy 127 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3234,43 +2906,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 138.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1d35d2-3946-47c4-8de0-02cb9e10b0d1")
-	)
-	(wire
-		(pts
-			(xy 138.43 35.56) (xy 138.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4ce867-d47e-4b75-8c81-30bc5dadd756")
-	)
-	(wire
-		(pts
-			(xy 114.3 60.96) (xy 144.78 60.96)
+			(xy 143.51 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ecaa7c1c-875a-4919-8af1-65e15cb7326f")
-	)
-	(wire
-		(pts
-			(xy 144.78 60.96) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2394231-2a39-466b-8e03-10b255792d42")
 	)
 	(wire
 		(pts
@@ -3692,7 +3334,7 @@
 			(uuid "2598cc9c-254f-448d-b310-2688b82c8d04")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R7")
 					(unit 1)
@@ -3770,7 +3412,7 @@
 			(uuid "afc2ceaa-8a1d-40bd-bfed-4c8192cac6a6")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR01")
 					(unit 1)
@@ -3852,7 +3494,7 @@
 			(uuid "8acad455-b1a7-4d97-bdeb-e63604c07b04")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "C9")
 					(unit 1)
@@ -3939,87 +3581,9 @@
 			(uuid "452ae0bd-04ee-4eac-ab9b-df9f3ab8a16e")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10ce2b9e-e9ad-4b73-acd8-2f015de07ed9")
-		(property "Reference" "#PWR03"
-			(at 139.7 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8d3f5b7-1d48-42d3-8d8d-75eed8542971")
-		)
-		(instances
-			(project "TaskLight"
-				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4110,7 +3674,7 @@
 			(uuid "f539e46c-27cb-4595-aa2e-bae66f3a5bf5")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R6")
 					(unit 1)
@@ -4187,7 +3751,7 @@
 			(uuid "45afc600-b347-4b19-b405-b6454b1c1f76")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR014")
 					(unit 1)
@@ -4268,7 +3832,7 @@
 			(uuid "25c06f9c-be4f-41d9-b72f-ad99ef35682f")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "C3")
 					(unit 1)
@@ -4346,7 +3910,7 @@
 			(uuid "1559209f-ffe6-4c37-87e0-ca12a4d34fd1")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR021")
 					(unit 1)
@@ -4439,7 +4003,7 @@
 			(uuid "56803cf3-547c-487d-a84d-89ba762f5ce5")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R4")
 					(unit 1)
@@ -4517,7 +4081,7 @@
 			(uuid "6ffa9536-0bf8-4c70-a89b-9b4d64289ad9")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR010")
 					(unit 1)
@@ -4602,7 +4166,7 @@
 			(uuid "c20c0ae5-9c45-4750-a35b-baa0b91d62d7")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "J1")
 					(unit 1)
@@ -4681,7 +4245,7 @@
 			(uuid "af670a68-8abb-4e8b-83db-e6986a0201af")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR09")
 					(unit 1)
@@ -4768,7 +4332,7 @@
 			(uuid "ea9ff945-bd88-4450-baec-2003462f5e7b")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "Q1")
 					(unit 1)
@@ -4850,7 +4414,7 @@
 			(uuid "abe23879-a69e-4df0-988b-b567e6ceebb6")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "SW3")
 					(unit 1)
@@ -4932,103 +4496,9 @@
 			(uuid "92a5098a-be1d-4e98-a0b4-223b235bbbe5")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:Trimpot_10k_RA_PTH")
-		(at 133.35 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "779e7aca-0995-4d55-999f-497ad2c2dd90")
-		(property "Reference" "R1"
-			(at 133.35 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k Linear"
-			(at 133.35 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
-			(at 133.35 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
-			(at 133.35 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 133.35 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 133.35 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b7801f46-2479-4e10-8e2f-c8429a385894")
-		)
-		(pin "1"
-			(uuid "b88407cb-fad3-4942-b38b-70e951f699be")
-		)
-		(pin "2"
-			(uuid "292577a9-06e7-4e93-81b5-bca6cba4cd3f")
-		)
-		(instances
-			(project "TaskLight"
-				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5119,87 +4589,9 @@
 			(uuid "0e673300-3498-4323-a871-75b8ce46a86c")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87cef581-3174-4e62-8628-7acb8b830498")
-		(property "Reference" "#PWR013"
-			(at 127 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c4a4a23-b53e-47d3-a462-70ce713841c6")
-		)
-		(instances
-			(project "TaskLight"
-				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5275,7 +4667,7 @@
 			(uuid "87b00799-c349-4516-b7c8-606dbb3dada1")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR011")
 					(unit 1)
@@ -5353,7 +4745,7 @@
 			(uuid "18486e7c-3128-4dd5-a9cc-1212bc96389d")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR012")
 					(unit 1)
@@ -5438,7 +4830,7 @@
 			(uuid "bcf001c7-e5fe-439e-ba78-094302dbcdf4")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "J2")
 					(unit 1)
@@ -5519,7 +4911,7 @@
 			(uuid "a7fb9e12-e1ae-43a2-b73f-03fc50365229")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "C8")
 					(unit 1)
@@ -5597,7 +4989,7 @@
 			(uuid "456d709b-645e-40e1-871f-381fb2d54713")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR020")
 					(unit 1)
@@ -5684,7 +5076,7 @@
 			(uuid "e2bb1e43-fa04-463d-8584-0dfe93460d95")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "Q3")
 					(unit 1)
@@ -5762,7 +5154,7 @@
 			(uuid "c6b042b6-e280-4dba-83fd-0df23c7b3bb9")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR07")
 					(unit 1)
@@ -5855,7 +5247,7 @@
 			(uuid "26c4f2ac-cc21-47cf-8f21-be82a632de78")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R8")
 					(unit 1)
@@ -5865,7 +5257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 97.79 0)
+		(at 132.08 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5876,7 +5268,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfedb2ed-1cc8-49f0-add5-63878a3a3c37")
 		(property "Reference" "#PWR04"
-			(at 127 104.14 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +5279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 102.87 0)
+			(at 132.08 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5897,7 +5289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 97.79 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5908,7 +5300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 97.79 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,7 +5311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 97.79 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5325,7 @@
 			(uuid "9cdc365a-2e13-4cbd-8330-3e65c608d176")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR04")
 					(unit 1)
@@ -6026,7 +5418,7 @@
 			(uuid "b689bec8-18bb-492f-ab30-6b702f952719")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "R3")
 					(unit 1)
@@ -6036,7 +5428,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 90.17 270)
+		(at 132.08 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6047,7 +5439,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3628170-aade-4362-89d0-a5bad989b755")
 		(property "Reference" "#PWR015"
-			(at 123.19 90.17 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +5450,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 90.1699 90)
+			(at 135.89 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6069,7 +5461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 90.17 0)
+			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +5472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 90.17 0)
+			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,7 +5483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 90.17 0)
+			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +5497,7 @@
 			(uuid "99f3c9bc-0c2f-49c9-98de-faec4c5794b1")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "#PWR015")
 					(unit 1)
@@ -6115,7 +5507,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 119.38 92.71 0)
+		(at 121.92 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6126,7 +5518,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3b29e81-4d5f-4754-bf8c-3dd7b816d417")
 		(property "Reference" "J5"
-			(at 120.015 85.09 0)
+			(at 122.555 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6136,7 +5528,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 120.015 87.63 0)
+			(at 122.555 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6146,7 +5538,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
-			(at 119.38 92.71 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +5549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 92.71 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +5560,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 119.38 92.71 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6191,7 +5583,7 @@
 			(uuid "34ef69a1-a63e-46f9-bb26-0b291494c1bf")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "J5")
 					(unit 1)
@@ -6278,103 +5670,9 @@
 			(uuid "b8ebc56a-6c11-4ac6-967b-5e658083f6af")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:Trimpot_10k_RA_PTH")
-		(at 144.78 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f02e2f8c-e5cc-4e47-a7df-fd11456ae55e")
-		(property "Reference" "R2"
-			(at 144.78 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k Linear"
-			(at 144.78 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
-			(at 144.78 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
-			(at 144.78 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 144.78 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 144.78 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f3113d11-f4ef-4516-8492-233cdbb5a109")
-		)
-		(pin "1"
-			(uuid "3979a12a-96ce-425c-8037-962116aa3366")
-		)
-		(pin "2"
-			(uuid "12a8f186-207d-404a-84e2-cd04716fa111")
-		)
-		(instances
-			(project "TaskLight"
-				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6559,7 +5857,7 @@
 			(uuid "57855749-73d5-41bc-a2d2-0c22cd0a5fa8")
 		)
 		(instances
-			(project "TaskLight"
+			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "U2")
 					(unit 1)
