@@ -2230,10 +2230,6 @@
 		(at 93.98 58.42)
 		(uuid "e819a087-7dff-4ef3-8fc8-b3d3ea14c75f")
 	)
-	(no_connect
-		(at 114.3 53.34)
-		(uuid "fbd5a9dd-3dfa-4b6d-85fc-9c1dc8537936")
-	)
 	(wire
 		(pts
 			(xy 93.98 71.12) (xy 82.55 71.12)
@@ -2376,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 48.26) (xy 118.11 50.8)
+			(xy 115.57 41.91) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 48.26) (xy 119.38 50.8)
+			(xy 120.65 41.91) (xy 120.65 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2553,6 +2549,16 @@
 			(type default)
 		)
 		(uuid "67913b74-65ab-4215-8a60-b73002b00742")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689e472b-46bc-47d3-9698-089f56b2a452")
 	)
 	(wire
 		(pts
@@ -2576,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 48.26) (xy 119.38 48.26)
+			(xy 115.57 41.91) (xy 120.65 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 114.3 50.8)
+			(xy 115.57 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2893,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "dce331aa-889b-42b6-9730-bd348c22dc36")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfaa240e-18fd-467c-92b8-796a8a11c92d")
 	)
 	(wire
 		(pts
@@ -3684,7 +3700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 50.8 0)
+		(at 120.65 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3694,7 +3710,7 @@
 		(dnp no)
 		(uuid "1e3c89fa-9943-47a7-b0f5-539c08eee945")
 		(property "Reference" "#PWR014"
-			(at 119.38 57.15 0)
+			(at 120.65 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.682 52.832 0)
+			(at 123.952 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3715,7 +3731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 50.8 0)
+			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 50.8 0)
+			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 50.8 0)
+			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,6 +4351,164 @@
 			(project "BadgerBeam"
 				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d706456-eb05-49f7-9c36-668921ed9bde")
+		(property "Reference" "SW1"
+			(at 139.7 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 139.7 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa36fe26-6919-4eec-b6d8-395e0f344847")
+		)
+		(pin "2"
+			(uuid "17c6f550-506c-4e6f-896b-93dc3cb7cbfd")
+		)
+		(instances
+			(project "BadgerBeam"
+				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7479096b-148d-489a-a292-6592024c2f52")
+		(property "Reference" "#PWR013"
+			(at 147.32 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafbf6d6-3a63-4437-9174-85482be20abc")
+		)
+		(instances
+			(project "BadgerBeam"
+				(path "/fa8f1bef-11b9-443d-8350-7ec86a0d87ee"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
